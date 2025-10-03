@@ -1,1 +1,83 @@
+Chocolate Sales Report – Power BI Dashboard
+Project Overview
 
+This project is an interactive Power BI dashboard analyzing global chocolate sales performance.
+It provides executives and managers with a comprehensive view of profit, costs, sales distribution, and category-level insights across multiple geographies.
+
+The dashboard supports drill-down filtering by Year, Sales Person, and Month, enabling dynamic reporting and flexible business analysis.
+
+Key Features
+
+KPI Cards
+
+Total Profit: $4.2M
+
+Total Cost: $3.8M
+
+Total Amount (Sales): $8.0M
+
+Profit Margin: 52.9%
+
+Geographic Sales & Cost Analysis
+
+Side-by-side bar chart comparing Total Amount vs. Total Cost across India, USA, UK, New Zealand, Australia, and Canada.
+
+Profit by Date (Trend Line)
+
+Time-series line chart showing fluctuations in profitability over 2021 with peaks of ~$0.10M.
+
+Regional Category Breakdown
+
+Stacked bar visualization of category contribution (Bars, Bites, Other) across APAC, Americas, and Europe.
+
+Daily Target Tracking
+
+KPI card showing performance vs. targets (e.g., $6.25K vs. target $10.3K, –39.35%).
+
+Product Category Share
+
+Donut chart displaying category-level sales split (Yummies, Delish, Juicies).
+
+Files in This Repository
+
+Chocolate sales report.pbix → Power BI file containing the interactive dashboard.
+
+Chocolate sales report Data.xlsx → Excel dataset (data source).
+
+Dashboard.png → Latest dashboard preview image.
+
+Tools & Technologies
+
+Power BI Desktop → Data modeling & visualization.
+
+Excel → Source dataset.
+
+DAX Measures → Custom calculations for KPIs (profit, margin, sales).
+
+Dashboard Preview
+
+Insights & Findings
+
+India, USA, and UK each generated ~$1.4M in sales, contributing the largest market shares.
+
+Profit margin held steady at ~52.9%, indicating strong cost management.
+
+Americas region led in category dominance (46% Bars sales).
+
+Performance dipped below daily targets on several occasions (e.g., May 31, 2021: $6.25K vs. $10.3K target).
+
+Product mix revealed a strong share from Yummies, followed by Delish and Juicies.
+
+ How to Use
+
+Clone or download this repository.
+
+Open the .pbix file in Power BI Desktop.
+
+Connect to the included Excel file (Chocolate sales report Data.xlsx) as the data source.
+
+Refresh and interact with slicers (Year, Month, Sales Person) to explore different business scenarios.
+
+Author
+
+Created by scaraus-web
